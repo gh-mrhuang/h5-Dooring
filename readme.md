@@ -1,3 +1,5 @@
+> 让H5制作像搭积木一样简单!
+
 <p align="center">
     <img src="./public/logo.png" width="260" alt="H5编辑器,H5制作神器,H5 editor,lowcode">
 </p>
@@ -12,25 +14,31 @@
   </a>
 </p>
 
-> H5-Dooring是一款功能强大，开源免费的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5落地页最佳实践。技术栈以react为主， 后台采用nodejs开发。
+> H5-Dooring是一款功能强大，专业可靠的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5落地页最佳实践。技术栈以react为主， 后台采用nodejs开发。
 
 > H5-Dooring is a powerful, open source, free H5 visual page configuration solution dedicated to providing a simple, convenient, professional and reliable, unlimited set of H5 landing page best practices. The technology stack is mainly react, developed in the background using nodejs.
 
-### 🏠 [Homepage](http://49.234.61.19/h5_visible)
+### 🏠 [Homepage](http://h5.dooring.cn)
 
 ### ✨ [Demo](http://h5.dooring.cn/h5_plus/editor?tid=123456)
+
+### 📦 doc(文档) [H5-Dooring Document](http://h5.dooring.cn/doc)
 
 ### [视频教程 | Video tutorial](https://www.zhihu.com/zvideo/1326300284608417792)
 
 <!-- <img src="http://io.nainor.com/uploads/face_17512320c6d.png" alt="H5可视化编辑器" /> -->
-![](http://49.234.61.19/uploads/dooring-sdk_1763cbe7028.png)
+![](http://h5.dooring.cn/uploads/dooring-sdk_1763cbe7028.png)
 
 ## Author
 
 👤 **徐小夕**
 
-* Website: http://49.234.61.19/h5_visible
+* Website: http://h5.dooring.cn
 * Github: [@MrXujiang](https://github.com/MrXujiang)
+
+## 声明
+
+专有软件及代码，未获得授权的情况下，禁止对该仓库代码进行反编译、分发等行为，否则将承担相应的法律后果。
 
 ## 🤝 Contributing
 
@@ -44,13 +52,13 @@ Give a ⭐️ if this project helped you!
 最近笔者正在开放dooring的插拔式服务, 以js-sdk的形式支持集成到外部系统中, 并提供开放API共使用者自由配置. 规划如下:
 
 
-![](http://49.234.61.19/uploads/sdk_1763cc11bd5.png)
+![](http://h5.dooring.cn/uploads/sdk_1763cc11bd5.png)
 
 
 ### 1. 如何引用用js-sdk | How to use js-sdk
 我们可以使用两种方式来使用我们的js-sdk, 第一种是在项目脚本中引入如下script标签, 如下:
 ``` js
-<script src="http://49.234.61.19/dooring-sdk.js"></script>
+<script src="http://h5.dooring.cn/dooring-sdk.js"></script>
 ```
 或者直接复制如下代码到你的script标签中, 代码如下:
 ``` js
@@ -150,27 +158,27 @@ FileSaver.saveAs(blob, "hello world.txt");
 * [基于H5 Dooring场景下的图片 文件上传方案指南](https://github.com/MrXujiang/h5-Dooring/wiki/%E5%9F%BA%E4%BA%8EH5-Dooring%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E5%9B%BE%E7%89%87-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%96%B9%E6%A1%88%E6%8C%87%E5%8D%97)
 
 ## 已完成功能 | The functionality is complete
-1. 组件库拖拽和显示
-2. 组件库动态编辑
-3. H5页面预览功能
-4. 保存H5页面配置文件
-5. 保存为模版
-6. 移动端跨端适配
-7. 媒体组件
-8. 在线下载网站代码功能
-9. 添加typescript支持
-10. 表单设计器/自定义表单组件
-11. 可视化组件Chart实现
-12. 在线编程模块(Mini Web IDE)
-13. 新增图表组件 面积图，折线图， 饼图
-14. 添加图片库,支持用户在线选择图片素材
-15.升级图片组件为图文组件
-16. 添加模版库
-17. 添加可视化组件(基于g2)如折线图, 饼图, 面积图等
-18. form组件文本框字段修改
-19. 清空按钮添加确认框
-20. 表单组件中添加展示型文本,用来对字段说明
-21. 支持组件复制, 右键删除
+1. 组件库拖拽和显示 | Component library drag and display
+2. 组件库动态编辑 | Component library dynamic editing
+3. H5页面预览功能 | H5 page preview feature
+4. 保存H5页面配置文件 | Save the H5 page profile
+5. 保存为模版 | Save as a template
+6. 移动端跨端适配 | Mobile cross-end fit
+7. 媒体组件 | The media component
+8. 在线下载网站代码功能 | Download the website code feature online
+9. 添加typescript支持 | Add typescript support
+10. 表单设计器/自定义表单组件 | Form designer/custom form components
+11. 可视化组件Chart实现 | Visual component Chart implementation
+12. 在线编程模块(Mini Web IDE) | Online programming module
+13. 新增图表组件 面积图，折线图， 饼图 | Added chart component area chart, line chart, pie chart
+14. 添加图片库,支持用户在线选择图片素材 | Add a picture library to allow users to select picture footage online
+15. 升级图片组件为图文组件 | Upgrade the picture component to the picture component
+16. 添加模版库 | Add a template library
+17. 添加可视化组件(基于g2)如折线图, 饼图, 面积图等 | Add visualization components (based on g2) such as line charts, pie charts, area charts, etc
+18. form组件文本框字段修改 | The form component text box field is modified
+19. 清空按钮添加确认框 | Empty the button to add a confirmation box
+20. 表单组件中添加展示型文本,用来对字段说明 | Add presentation text to the form component to describe the field
+21. 支持组件复制, 右键删除 | Support for component replication, right-click deletion
 
 ## 正在完成功能 | The functionality is being completed
 * 丰富组件库组件 Enrich component library components
@@ -221,9 +229,12 @@ cnpm run dev
 前提是先安装http-server模块.
 
 ## Partner project
+* [powerNice - 一款轻量级文档管理编辑器](http://h5.dooring.cn/powernice/views)
+* [rc-drag - 基于react的轻量级拖拽缩放组件](https://github.com/MrXujiang/rc-drag)
 * [Luckysheet - 强大的在线excel编辑器](https://github.com/mengshukeji/Luckysheet)
 * [Blink - 一款自定义的生成故障艺术动画的组件库](https://github.com/MrXujiang/blink)
 * [frontend-developer-roadmap | 一个能提高开发者工作效率的前端js库汇总](https://github.com/MrXujiang/frontend-developer-roadmap)
+* [lucky-canvas 抽奖插件 | 一个支持H5, 微信小程序, React的抽奖插件](https://github.com/LuckDraw/lucky-canvas)
 
 ## 更新日志 | Update the log
 1. 添加在线编程模块（在执行代码前先启动node服务 npm run server）
