@@ -1,7 +1,7 @@
 > 让H5制作像搭积木一样简单!
 
 <p align="center">
-    <img src="./public/logo.png" width="260" alt="H5编辑器,H5制作神器,H5 editor,lowcode">
+    <img src="http://cdn.dooring.cn/dr/logo.ff7fc6bb.png" width="260" alt="H5编辑器,H5制作神器,H5 editor,lowcode">
 </p>
 <h1 align="center">Welcome to H5-Dooring 👋</h1>
 <p>
@@ -14,20 +14,21 @@
   </a>
 </p>
 
-> H5-Dooring是一款功能强大，专业可靠的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5落地页最佳实践。技术栈以react为主， 后台采用nodejs开发。
+> H5-Dooring是一款功能强大，专业可靠的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5落地页最佳实践。技术栈以react和typescript为主， 后台采用nodejs开发, 正在探索h5-lowcode解决方案。
 
 > H5-Dooring is a powerful, open source, free H5 visual page configuration solution dedicated to providing a simple, convenient, professional and reliable, unlimited set of H5 landing page best practices. The technology stack is mainly react, developed in the background using nodejs.
 
 ### 🏠 [Homepage](http://h5.dooring.cn)
 
-### ✨ [Demo](http://h5.dooring.cn/h5_plus/editor?tid=123456)
+### ✨ [Demo](http://h5.dooring.cn/h5_plus)
 
 ### 📦 doc(文档) [H5-Dooring Document](http://h5.dooring.cn/doc)
 
 ### [视频教程 | Video tutorial](https://www.zhihu.com/zvideo/1326300284608417792)
 
-<!-- <img src="http://io.nainor.com/uploads/face_17512320c6d.png" alt="H5可视化编辑器" /> -->
-![](http://h5.dooring.cn/uploads/dooring-sdk_1763cbe7028.png)
+![](http://cdn.dooring.cn/dr/2.png)
+
+相关产品: [V6.Dooring | 大屏可视化编辑器](https://github.com/MrXujiang/v6.dooring.public)
 
 ## Author
 
@@ -38,15 +39,17 @@
 
 ## 声明
 
-专有软件及代码，未获得授权的情况下，禁止对该仓库代码进行反编译、分发等行为，否则将承担相应的法律后果。
+未获得授权的情况下，禁止对该仓库代码进行反编译、分发等行为，否则将承担相应的法律后果。
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MrXujiang/h5-Dooring/issues).
+欢迎提供问题和功能需求, 如果大家有好的点子和优化建议, 也欢迎提pr参与我们的共建.
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+如果觉得项目还不错, 就点个star吧~
 
 ## ⭐️ dooring-sdk使用
 最近笔者正在开放dooring的插拔式服务, 以js-sdk的形式支持集成到外部系统中, 并提供开放API共使用者自由配置. 规划如下:
@@ -55,7 +58,7 @@ Give a ⭐️ if this project helped you!
 ![](http://h5.dooring.cn/uploads/sdk_1763cc11bd5.png)
 
 
-### 1. 如何引用用js-sdk | How to use js-sdk
+### 1. 如何引用js-sdk | How to use js-sdk
 我们可以使用两种方式来使用我们的js-sdk, 第一种是在项目脚本中引入如下script标签, 如下:
 ``` js
 <script src="http://h5.dooring.cn/dooring-sdk.js"></script>
@@ -235,6 +238,7 @@ cnpm run dev
 * [Blink - 一款自定义的生成故障艺术动画的组件库](https://github.com/MrXujiang/blink)
 * [frontend-developer-roadmap | 一个能提高开发者工作效率的前端js库汇总](https://github.com/MrXujiang/frontend-developer-roadmap)
 * [lucky-canvas 抽奖插件 | 一个支持H5, 微信小程序, React的抽奖插件](https://github.com/LuckDraw/lucky-canvas)
+* [基于antd开箱即用的后台管理模版ant-simple-pro](https://github.com/lgf196/ant-simple-pro)
 
 ## 更新日志 | Update the log
 1. 添加在线编程模块（在执行代码前先启动node服务 npm run server）
@@ -249,9 +253,9 @@ cnpm run dev
 ## 赞助 | Sponsored
 开源不易, 有了您的赞助, 我们会做的更好~
 
-<img src="http://49.234.61.19/uploads/WechatIMG2_1742b586c3d.jpeg" width="180px" />
+<img src="http://cdn.dooring.cn/dr/WechatIMG2.jpeg" width="180px" />
 
 ## 技术反馈和交流群 | Technical feedback and communication
 微信：beautifulFront
 
-<img src="http://49.234.61.19/uploads/code_1763cc23385.png" width="180px" />
+<img src="http://cdn.dooring.cn/dr/qtqd_code.png" width="180px" />

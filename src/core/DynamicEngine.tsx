@@ -3,23 +3,13 @@ import Loading from '../components/LoadingCp';
 import { useMemo, memo, FC } from 'react';
 import React from 'react';
 
-export type componentsType = 'media' | 'base' | 'visible';
+export type componentsType = 'media' | 'base' | 'visible' | 'shop';
 
 const DynamicFunc = (type: string, componentsType: string) => {
   return dynamic({
     loader: async function() {
-      let Component: FC<{ isTpl: boolean }>;
-
-      if (componentsType === 'base') {
-        const { default: Graph } = await import(`@/components/BasicShop/BasicComponents/${type}`);
-        Component = Graph;
-      } else if (componentsType === 'media') {
-        const { default: Graph } = await import(`@/components/BasicShop/MediaComponents/${type}`);
-        Component = Graph;
-      } else {
-        const { default: Graph } = await import(`@/components/BasicShop/VisualComponents/${type}`);
-        Component = Graph;
-      }
+      const { default: Graph } = await import(`@/materials/${componentsType}/${type}`);
+      const Component = Graph;
       return (props: DynamicType) => {
         const { config, isTpl } = props;
         return <Component {...config} isTpl={isTpl} />;

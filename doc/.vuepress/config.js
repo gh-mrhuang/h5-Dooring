@@ -87,6 +87,12 @@ module.exports = {
             sidebarDepth: 1,
           },
           {
+            title: '下载源码',
+            path: '/zh/guide/functionRealization/download',
+            collapsable: false,
+            sidebarDepth: 1,
+          },
+          {
             title: '网页预览',
             path: '/zh/guide/functionRealization/pagePreview',
             collapsable: false,
@@ -125,6 +131,18 @@ module.exports = {
             sidebarDepth: 1,
           },
           {
+            title: 'v6.dooring私有化部署(临时)',
+            path: '/zh/guide/deployDev/deploy_v6',
+            collapsable: false,
+            sidebarDepth: 1,
+          },
+          {
+            title: '服务端数据说明',
+            path: '/zh/guide/deployDev/dir',
+            collapsable: false,
+            sidebarDepth: 1,
+          },
+          {
             title: '支持https',
             path: '/zh/guide/deployDev/https',
             collapsable: false,
@@ -137,8 +155,20 @@ module.exports = {
             sidebarDepth: 1,
           },
           {
+            title: '获取Form组件的值数据',
+            path: '/zh/guide/deployDev/form',
+            collapsable: false,
+            sidebarDepth: 1,
+          },
+          {
             title: 'API接口文档',
             path: '/zh/guide/deployDev/api',
+            collapsable: false,
+            sidebarDepth: 1,
+          },
+          {
+            title: '更新日志',
+            path: '/zh/guide/deployDev/log',
             collapsable: false,
             sidebarDepth: 1,
           },

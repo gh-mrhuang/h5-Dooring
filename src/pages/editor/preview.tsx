@@ -1,5 +1,5 @@
 import React, { CSSProperties, memo, useEffect, useMemo, useRef, useState } from 'react';
-import ViewRender from '@/core/ViewRender';
+import { ViewRender } from '@/core';
 import domtoimage from 'dom-to-image';
 import req from '@/utils/req';
 import { useGetScrollBarWidth } from '@/utils/tool';
@@ -97,6 +97,8 @@ const PreviewPage = memo((props: PreviewPageProps) => {
     domtoimage
       .toBlob(refImgDom.current, {
         bgcolor: '#fff',
+        //  支持跨域截图
+        cacheBust: true,
       })
       .then(function(blob: Blob) {
         const reader = new FileReader();
