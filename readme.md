@@ -26,11 +26,14 @@
 
 English | [简体中文](./zh.md)
 
+new doc: [private deployment process](http://h5.dooring.cn/docz/source-list/H5-Dooring/deploy_en)
+
 Related products: 
 
 - [V6.Dooring | Large screen visual editor](https://github.com/MrXujiang/v6.dooring.public)
 - [dooring-electron-lowcode | Dooring desktop software](https://github.com/MrXujiang/dooring-electron-lowcode)
 - [Lowcode community](http://lowcode.dooring.cn)
+- [Dooring-Saas](https://dooring.vip)
 
 ## Author
 
@@ -100,6 +103,11 @@ Give a ⭐️ if this project helped you!
 3. The editor supports multi-size switching and canvas size customization
 4. Fix multilingual issues with background management analytics forms
 5. The component library supports user-defined selection
+
+## Technology Sharing
+
+- [(10月最新) 前端图形学实战: 从零开发几何画板(vue3 + vite版](https://github.com/MrXujiang/h5-Dooring/issues/149)
+- [几何学在前端边界计算中的应用和原理分析(一)](https://github.com/MrXujiang/h5-Dooring/issues/148)
 
 ### The back-end section
 The back-end part because of the knowledge points involved is more, is not the focus of this article, so here is a few points, you can use completely different technology to achieve back-office services, such as PHP, Java, Python or Egg. The author here is using the "koa" . 
