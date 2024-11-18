@@ -28,12 +28,17 @@ English | [简体中文](./zh.md)
 
 new doc: [private deployment process](http://h5.dooring.cn/docz/source-list/H5-Dooring/deploy_en)
 
+website: [H5-Dooring](https://dooring.net)
+
+tech blog: [sharing of technology](https://dev.to/alex_xu/we-made-a-page-visualization-to-build-an-open-source-project-1l1p)
+
 Related products:
 
 - [V6.Dooring | Large screen visual editor](https://github.com/MrXujiang/v6.dooring.public)
 - [dooring-electron-lowcode | Dooring desktop software](https://github.com/MrXujiang/dooring-electron-lowcode)
-- [Lowcode community](http://lowcode.dooring.cn)
+- [flowmix/docx | 多模态文档引擎](http://flowmix.tunrtip.cn/docx)
 - [Dooring-Saas](https://dooring.vip)
+- [Dooring 智图](https://magic.dooring.vip)
 
 ## Author
 
@@ -156,6 +161,12 @@ or
 cnpm run start
 ```
 
+local visit:
+
+```
+http://localhost:port/h5_plus
+```
+
 注意: 如果 window 系统下无法启动, 请移步 [dooring-electron](https://github.com/H5-Dooring/dooring-electron-lowcode)
 
 ## How to run the downloaded code ?
@@ -185,7 +196,7 @@ Modern browsers does not support IE browser
 
 ## Contact us
 
-<img src="http://cdn.dooring.cn/dr%2Fline.jpeg" alt="line" width=120 />
+<img src="http://next-admin.com/tech.png" alt="line" width=120 />
 
 Twitter Account：@H5Dooring
 
